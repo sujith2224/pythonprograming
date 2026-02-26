@@ -1,0 +1,16 @@
+student={"name": "Alice","age": 21,"grade": "A","course": "Computer Science"}
+print("Original Dictionary:")
+print(student)
+print("\nKeys:")
+print(student.keys())
+print("\nValues:")
+print(student.values())
+print("\nItems:")
+print(student.items())
+removed_value = student.pop("grade")
+print("\nAfter pop('grade'):")
+print("Removed value:", removed_value)
+print(student)
+del student["age"]
+print("\nAfter deleting 'age' using del:")
+print(student)
